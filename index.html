@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Date: November 21, 2022-->
+<!-- Product Landing, part of freecodecamp -->
+<!-- Purpose: Refresh my web dev skills-->
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  
+  <title>Product Landing Page</title>
+</head>
+<body>
+  <main id="main">
+  <!--Where the header/navbar is -->
+  <header id="header">
+    <img id="header-img" src="https://static.cdnlogo.com/logos/t/86/transmission.svg" width="50px" loading="lazy"/>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how_it_works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+</header>
+
+  <div class="container">
+
+  <div id="head">
+    <h2>Tailored Automation, just for you</h2>
+    <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter your email address"/>
+      </br> 
+      <input type="submit" id="submit" name="submit" value="Get Started"/>
+    </form>
+  </div>
+
+    <section id="features">
+      <ul>
+        <li>
+          <i class="fa fa-rotate"></i>
+          <div>
+            <h2>Customizable</h2>
+            <p class="description">description</p>
+            </div>
+        </li>
+        <li>
+          <i class="fa fa-bolt"></i>
+          <div>
+            <h2>Fast Deliverance</h2>
+            <p class="description">description</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-server"></i>
+          <div>
+            <h2>Up Time</h2>
+            <p class="description">description</p>
+          </div>
+        </li>
+      </ul>
+
+    </section>
+
+    <section id="how_it_works">
+      <div id="videowrapper">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3gjcY_00U1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div id="cards">
+        <div class="card">
+          <h3 class="bronze-title card-title">Bronze</h3>
+          <i class="bronze fa-solid fa-medal"></i>
+          <h2>$350</h2>
+          <p>The lowest tier. Requirements will be met based on your input</p>
+          <input class="select" type="button" name="Select" value="Select"/>
+        </div>
+        <div class="card">
+          <h3 class="silver-title card-title">Silver</h3>
+          <i class="silver fa-solid fa-medal"></i>
+          <h2>$700</h2>
+          <p>The middle tier. Affordable and concise. We'll make sure all your needs are completely met + extra</p>
+          <input class="select" type="button" name="Select" value="Select"/>
+        </div>
+        <div class="card">
+          <h3 class="gold-title card-title">Gold</h3>
+          <i class="gold fa-solid fa-medal"></i>
+          <h2>$1050</h2>
+          <p>The highest tier. This solution entails creating a sophisticated resolution to any of your automation requests with a module for user customization</p>
+          <input class="select" type="button" name="Select" value="Select"/>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      </footer>
+
+  </div>
+</main>
+</body>
+</html>
